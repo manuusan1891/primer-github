@@ -1,3 +1,7 @@
 Diferencias entre Git y Github
-Github
+Git es un sistema de control de versiones que permite registrar, organizar y gestionar los cambios realizados sobre un conjunto de archivos a lo largo del tiempo. Su función principal es conservar un historial completo del proyecto: cada modificación queda documentada, lo que permite recuperar versiones anteriores, comparar estados del desarrollo y comprender la evolución del trabajo. Además, Git facilita el trabajo en paralelo mediante el uso de ramas, donde se pueden desarrollar nuevas funcionalidades o realizar pruebas sin afectar la versión principal. Esto resulta especialmente valioso en proyectos complejos o en contextos donde intervienen varias personas.
+
+Por otra parte, GitHub es una plataforma en línea que utiliza Git como base para alojar repositorios de código. Su propósito no es gestionar versiones en sí —esa es la función de Git— sino proporcionar un entorno donde esos repositorios pueden almacenarse, compartirse y administrarse de manera colaborativa. GitHub incorpora herramientas que permiten revisar cambios, proponer mejoras, coordinar el trabajo entre distintos colaboradores y mantener un seguimiento ordenado del desarrollo de un proyecto.
+
+La diferencia entre ambos radica en su naturaleza y función. Git es una herramienta que opera localmente y se encarga del control de versiones; GitHub es un servicio en la nube que facilita la distribución, el respaldo y la colaboración sobre proyectos que utilizan Git. En conjunto, permiten no solo mantener un control riguroso sobre las modificaciones realizadas, sino también trabajar de forma estructurada y coordinada en entornos individuales o colectivos.
 
