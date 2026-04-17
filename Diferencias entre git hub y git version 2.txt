@@ -1,1 +1,27 @@
-wao
+¿Qué es Git y para qué sirve?
+Git es un sistema de control de versiones (VCS) gratuito y de código abierto diseñado para realizar un seguimiento de los cambios en los archivos.
+Función principal: Permite a los desarrolladores guardar "fotos" (copias instantáneas) del estado de su proyecto en diferentes momentos. Esto permite regresar a versiones anteriores si algo sale mal, comparar cambios o ver quién modificó qué.
+Operación local: Git funciona principalmente en tu propio ordenador. Casi todas sus operaciones (como navegar por el historial o hacer cambios) no necesitan conexión a Internet.
+Gestión de ramas: Su característica más potente es la facilidad para crear "ramas", lo que permite a varias personas trabajar en diferentes funciones del mismo proyecto de forma aislada y luego fusionarlas de manera inteligente.
+Integridad: Git utiliza sumas de comprobación (hashing SHA-1) para asegurar que ningún archivo se corrompa o se cambie sin que el sistema lo detecte.
+¿Qué es GitHub y para qué sirve?
+GitHub es una plataforma basada en la nube que aloja repositorios de Git. Esencialmente, es un sitio web que utiliza el software Git para permitirte almacenar y compartir tu trabajo en línea.
+Función principal: Sirve como un servidor central donde los desarrolladores cargan (hacen push) su código local para que otros puedan verlo, descargarlo (hacer clone) y colaborar.
+Colaboración social: Introduce herramientas que Git por sí solo no tiene, como:
+Pull Requests: Solicitudes para integrar cambios que permiten a los compañeros revisar el código y hacer comentarios antes de aceptarlo.
+Issues: Un sistema para rastrear fallos, proponer mejoras y organizar tareas mediante hilos de discusión.
+Interfaz visual: Ofrece una interfaz gráfica en el navegador para gestionar archivos y visualizar el historial sin usar la línea de comandos.
+Servicios extra: Ofrece herramientas adicionales como GitHub Actions para automatización, GitHub Pages para alojar sitios web estáticos y GitHub Gist para compartir fragmentos de código.
+
+La principal diferencia entre ambas herramientas es que Git es el sistema o software que instalas en tu computadora para gestionar el control de versiones de tus archivos localmente
+. Por el contrario, GitHub es una plataforma en la nube que sirve para alojar esos proyectos que ya utilizan Git, permitiéndote compartirlos y trabajar con otras personas
+.
+En cuanto a su funcionamiento, Git es independiente y funciona principalmente de forma local; puedes realizar casi todas sus operaciones, como ver el historial o confirmar cambios (hacer commits), sin necesidad de estar conectado a Internet
+. GitHub, al ser un servicio web, requiere conexión para que puedas sincronizar tu trabajo local con el servidor central y para utilizar sus funciones sociales de colaboración
+.
+Finalmente, su relación es de dependencia técnica: GitHub no podría existir sin Git, ya que se basa totalmente en este software para rastrear los cambios
+. Sin embargo, Git puede utilizarse perfectamente sin GitHub para gestionar tus archivos privados en tu propio ordenador
+. Mientras que Git se maneja usualmente mediante línea de comandos, GitHub ofrece una interfaz gráfica en el navegador y herramientas adicionales para facilitar la administración de proyectos
+
+¿Cómo funcionan juntos?
+En un flujo de trabajo típico, tú usas Git en tu computadora para trabajar en tus archivos de forma segura y privada. Cuando estás listo para compartir tus progresos o necesitas trabajar con un equipo, envías tus datos de Git al servidor remoto de GitHub. GitHub actúa como el "punto de encuentro" donde Git determina cómo combinar inteligentemente los cambios realizados por diferentes personas.
